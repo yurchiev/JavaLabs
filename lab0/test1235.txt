@@ -1,0 +1,10 @@
+Name: Sasha Shapovalov
+Date of Birth: 2004-05-02
+Hospital: 2, Room: 22A
+Location: Golovna 167
+
+Name: Vasya Pupkin
+Date of Birth: 2006-03-15
+Hospital: 23, Room: 20B
+Location: Prospect 167
+

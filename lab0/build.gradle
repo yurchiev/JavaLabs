@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation("org.testng:testng:7.7.0")
+    implementation 'ch.qos.logback:logback-classic:1.2.9'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.3'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.1.2'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.4'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.13.4'
+    implementation 'javax.validation:validation-api:2.0.1.Final'
+    implementation 'org.glassfish:javax.el:3.0.0'
+    implementation 'org.hibernate.validator:hibernate-validator:6.0.21.Final'
+    implementation 'mysql:mysql-connector-java:8.0.30'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.3'
+}
+
+test {
+    useTestNG()
+}
+
+sourceCompatibility = JavaVersion.VERSION_15
+targetCompatibility = JavaVersion.VERSION_15
